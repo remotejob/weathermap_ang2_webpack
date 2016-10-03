@@ -1,5 +1,17 @@
 <main>
-  <h1>Hello from Angular App with Webpack</h1>
+  <h1>Hello from Weathermap Angular 2 App with Webpack</h1>
   <img src="../../public/images/angular.png">
+  
+  <button type="button" (click)="saveClient()">Permit exam your location</button>
+
+  <div *ngIf="client">
+    <h3>Ip:{{client.ip}} </h3>
+  </div>
+   <div *ngIf="weatherObj">
+    <h4>City:  {{weatherObj.name}} </h4>
+    <h4>Temperature:{{weatherObj.main.temp}}</h4>
+    <h4>Description: {{weatherObj.weather[0].description}}</h4> 
+  </div>   
+
 </main>
 

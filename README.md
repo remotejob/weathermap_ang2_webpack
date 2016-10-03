@@ -1,7 +1,9 @@
-# Angular QuickStart Source
+# Angular 2 weathermap_ang2_webpack Source
 [![Build Status][travis-badge]][travis-badge-url]
 
-This repository holds the TypeScript source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
+Related to [weathermap_go](https://github.com/remotejob/weathermap_go) it's fronttend
+
+This repository holds the TypeScript modified source code of the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html),
 the foundation for most of the documentation samples and potentially a good starting point for your application.
 
 It's been extended with testing support so you can start writing tests immediately.
@@ -29,7 +31,7 @@ We recommend [nvm](https://github.com/creationix/nvm) for managing multiple vers
 
 Clone this repo into new project folder (e.g., `my-proj`).
 ```bash
-git clone  https://github.com/angular/quickstart  my-proj
+git clone https://github.com/remotejob/weathermap_ang2_webpack  my-proj
 cd my-proj
 ```
 
